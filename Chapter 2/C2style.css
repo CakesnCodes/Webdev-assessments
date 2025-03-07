@@ -1,0 +1,96 @@
+.heading
+{
+	text-align: center;
+	font-family: ct_font_starbright;
+	background-image: radial-gradient(white, #DFE2E4);
+	font-size: 200%;
+	line-height: 0.5;
+	color: #250d0d;
+	padding: 5px
+}
+#small{
+	font-size: 100%;
+}
+
+body{
+	background-image: linear-gradient(#28093e, #250d0d);
+	color: white;
+}
+
+.menu ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #482258;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.menu li {
+  float: left;
+  border-right: 1px solid #28093e;
+}
+
+.menu li a{
+  display: block;
+  color: #e4c6be;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: #e08c95;
+}
+
+.button a{
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#button1:hover, #button2:hover{
+	opacity: 0.6;
+}
+
+
+h2 {
+	text-align: center;
+	color: white;
+	padding: 10px
+}
+
+.div p{}
+
+#button1{
+	background-color: #dfb06c;
+	color: #401C0A
+}
+
+
+#Synopsis{
+ background-color: #e1767d;
+}
+
+#button2, #Cast{
+ background-color: #9fa7d5;
+ color: #071E29;
+}
+
+#About{
+	background-color: #5ab99b;
+}
+
+#Reviews {
+	background-color: #403db6;
+}
