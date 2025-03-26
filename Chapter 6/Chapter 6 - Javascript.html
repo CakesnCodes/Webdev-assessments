@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 6 - Javascript</title>
+    <link href="C6Style.css" rel="stylesheet" type="text/css" media="all">
+    <link href='https://fonts.googleapis.com/css?family=Noto Sans'>
+    <script src="C6script.js" type="text/javascript"></script>
+  </head>
+  <body>
+      <nav>
+      <img src="https://file.garden/Z9GPMGr3xh_Qkwad/LRE-Bordered.png" class="logo">
+      <h1 class="name">Lucky Rabbit<h1>
+      </nav>
+      <header><h2 class="headtxt">Petrol Calculator</h2></header>
+      <br />
+    <div class="calculator">
+      <center>
+         <br />
+        <label style="margin-top:50px;">Cost of petrol (per liter):</label><br /><br />
+        <input type="number" placeholder="Enter Amount" id='cost' value="1.72"><br /><br />
+        <label style="margin-top:50px;" >Liters purchased:</label><br /><br />
+        <input type="number" placeholder="Enter Amount" id="liters"value="0"><br /><br />
+        <button type="button" onclick="totalcost()" class="button">Submit</button>
+
+        <p>Total Cost: <span id="total"></span></p><br />
+      </center>
+  </body>
+</html>
