@@ -1,0 +1,86 @@
+body{
+  background-image: url('https://file.garden/Z9GPMGr3xh_Qkwad/stockphotos/tealpaint(dan-cristian-padure).jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header{
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: "Open Sans",sans-serif;
+  letter-spacing: 2px;
+  color: #f8ca2b;
+  display: table;
+  margin: 0px auto 0px auto;
+  padding: 20px 30px;
+  gap: 20%;
+  border-color: white;
+  border-radius: 15px;
+  border-style: dotted;
+  line-height: 15px;
+}
+
+.layout {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  border: 5px #0dd5e9 solid;
+  box-shadow: 0px 0px 0px 5px #f8ca2b, 0px 0px 0px 10px #0e1112;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-size: cover;
+  padding: 20px 12px;
+  border-radius: 15px;
+  max-width: 1220px;
+}
+
+.layout button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  background-color: #0e1112;
+  cursor: pointer;
+  border: 3px #f8ca2b solid;
+  padding: 20px 30px;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  display: table;
+  margin: 20px auto 20px auto;
+  text-align: center;
+}
+
+.layout button:hover {
+  color: #0e1112;
+  background-color: #0dd5e9;
+}
+
+.layout button:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .layout button {
+    width: 250px;
+    height: 100px;
+    max-width: 250px;
+    max-height: 100px;
+    border-radius: 15px;
+  }
+}
+
+footer{
+  background-color: #0e1112;
+  font-family: "Open Sans",sans-serif;
+  letter-spacing: 2px;
+  color: #f8ca2b;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}

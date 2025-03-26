@@ -1,0 +1,26 @@
+#Heading{
+	font-family: "Brush Script MT", cursive;
+	text-align: center;
+	color: #ef4776;
+}
+
+body{
+	background-image: url(https://file.garden/Z9GPMGr3xh_Qkwad/tealtiles.png);
+	background-repeat: repeat;
+	background-size: 50px 50px;
+	padding: 70px 0;
+}
+
+.dance{
+	background-color: white;
+    border-radius: 20px;
+	padding: 30px;
+	height: 20%;
+	margin: 0px auto 0px auto;
+    display: table;
+}
+
+video{
+	margin: 0px auto 0px auto;
+    display: table;
+}

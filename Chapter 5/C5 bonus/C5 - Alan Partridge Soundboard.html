@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 5- Embedded Content</title>
+    <link href="C5Bstyle.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <header>
+    <h1>Audio Sampler</h1>
+    </header> 
+    <br>
+    <section class="layout">
+      <div><button onclick="play1()" type="button">1.<br>Ah ha</button></div>
+      <audio id="ah-ha">
+        <source src="clips\ah-ha.mp3" type="audio/mpeg">
+      </audio>
+      
+      <div><button onclick="play2()" type="button">2.<br>Back of the net</button></div> 
+      <audio id="BOTN">
+        <source src="clips\back-of-the-net.mp3" type="audio/mpeg">
+      </audio>
+
+      <div><button onclick="play3()" type="button">3.<br>Bang out of order</button></div>
+      <audio id="BOOO">
+        <source src="clips\bangoutoforder.mp3" type="audio/mpeg">
+      </audio>
+      
+      <div><button onclick="play4()" type="button">4.<br>Dan</button></div>
+      <audio id="dan">
+        <source src="clips\dan.mp3" type="audio/mpeg">
+      </audio>
+      
+      <div><button onclick="play5()" type="button">5.<br>Email of the evening</button></div>
+      <audio id="EOTE">
+        <source src="clips\emailoftheevening.mp3" type="audio/mpeg">
+      </audio>
+      
+      <div><button onclick="play6()" type="button">6.<br>Hello Partridge</button></div>
+      <audio id="hello">
+        <source src="clips\hellopartridge.mp3" type="audio/mpeg">
+      </audio>
+      
+      <div><button onclick="play7()" type="button">7.<br>I ate a scotch egg</button></div>
+      <audio id="scotchegg">
+        <source src="clips\iateascotchegg.mp3" type="audio/mpeg">
+      </audio>
+      
+      <div><button onclick="play8()" type="button">8.<br>I'm Confused</button></div>
+      <audio id="confusion">
+        <source src="clips\imconfused.mp3" type="audio/mpeg">
+        Oops! Your browser can use audio elemts, sorry!
+      </audio>
+    </section>
+    <footer>© 2025 RadioShamBo. Powered by. CakesN'Codes</footer>
+    <script src="soundboard.js"></script>
+  </body>
+</html>
