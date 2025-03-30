@@ -1,0 +1,56 @@
+body{
+  background-color: PaleVioletRed;
+  margin: 15px;
+  border-radius: 20px;
+}
+
+.layout{
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  gap: 16px;
+  background-color: pink;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+  border-style: groove;
+}
+
+h1{
+  font-family: serif, "Times new roman";
+  background-color: olivedrab;
+  color: ghostwhite;
+  padding: 25px;
+  text-align: center;
+  font-size: 50px;
+  border-radius: 20px;
+}
+
+p{
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 5px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  padding: 20px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: whitesmoke;
+}
+
+.village1 img{
+  filter: blur(5px);
+}
+
+.village2 img{
+  filter: drop-shadow(10px 10px 7px dimgrey); 
+  filter: saturate(110%);
+}
+
+.village3 img{
+  filter: sepia(50%);
+}
